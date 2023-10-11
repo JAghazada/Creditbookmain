@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Table 03</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="../scripts/bundle/bundle.js"></script>
+</head>
+
+<body>
+
+
+  </div>
+
+
+  <div class="modal">
+    <div class="_Info_layout 
+      timbalan">
+      <div class="close close-getuser-info-modal">
+        <img src="../views/icons/xmark-solid.svg" alt="">
+      </div>
+      <div class="d-flex mt-2 justify-content-center align-items-center">
+
+        <div class="ilcnt">
+
+
+          <span class="key">Ad:</span> <span class=" k-name value">Jamil</span>
+          <br> <span class="key ">Soyad:</span> <span class=" k-surname value">Aghazada</span>
+          <br> <span class="key ">Telefon:</span> <span class=" k-phone value">0505527850764</span>
+          <br> <span class="key ">Borc:</span> <span class=" k-credit value">0</span>
+          <br> <span class="key ">Ilkin Borc:</span> <span class="k-initialDebt value">0</span>
+          <br> <span class="key ">SonOdenilenMiqdar:</span> <span class=" k-lastpaymentamount value">100.00</span>
+          <br> <span class="key ">SonOdenisTarixi:</span> <span class=" k-lastpaymentdate value">2022-08-31</span>
+          <br> <span class="key ">Qeyd:</span> <span class=" k-note value">eqwewq</span>
+          <br> <span class="key ">BaslangicTarixi:</span> <span class=" k-startingdate value">2022-08-17</span>
+          <br> <span class="key ">ElaveOlunmaTarixi:</span> <span class=" k-addingtime value">2022-08-31</span>
+          <br> <span class="key">Mallar:</span>
+          <br>
+          <div class="d-flex justify-content-center">
+            <div class="k-stuffs ">
+
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="_E_layout">
+      <div class="d-flex justify-content-center col-12 align-items-center">
+        <div class="col-10">
+          <input type="text" placeholder="Ad" id="name" class="col-10 form-control" />
+          <input type="text" placeholder="Soyad" id="surname" class="col-10 form-control" />
+          <input type="text" placeholder="Qalıq" id="credit" class="col-10 form-control" />
+          <input type="text" placeholder="Telefon" id="phone" class="col-10 form-control" />
+          <input type="date" placeholder="Başlanğıc Tarixi" id="time" class="col-10 form-control" />
+          <input type="text" placeholder="Xüsusi Qeyd" id="specialInfo" class="col-10 form-control" />
+          <div class="p-0 m-0" id="goods-container">
+            <div class="d-flex mt-3 col-6 p-0">
+              <input type="text" placeholder="Mehsul" id="specialInfo" class="col-6 add-goods-name form-control" />
+              <input type="number" placeholder="Sayi" id="specialInfo" class="col-3 add-goods-count form-control" />
+              <div class="p-0 m-0 d-flex">
+                <button id="btn-add" class="btn m-0 btn-danger">+</button>
+              </div>
+            </div>
+            <div id="goods-lists"></div>
+          </div>
+          <div class="d-flex mt-2 justify-content-center">
+            <button class="btn-primary edit-use-btn btn col-6">
+              Deyisiklikleri et!
+            </button>
+            <button class="btn-secondary ecancel-user-btn btn col-3">
+              Legv et
+            </button>
+          </div>
+        </div>
+        <!-- ad soyad telefon borc -->
+      </div>
+    </div>
+    <div class="_I_layout">
+      <div class="d-flex justify-content-center mt-4">
+        <h5><span class="nameinfo"></span> ucun borc artimi edirsiniz.</h5>
+      </div>
+      <div class="d-flex justify-content-center align-items-center">
+        <input type="text" id="usercredit" autocomplete="off" disabled value="Borc: 300 AZN"
+          class="form-control col-10" />
+      </div>
+      <div class="d-flex justify-content-center w-100">
+        <div class="col-10 m-0 p-0">
+          <label class="pl-1 pt-2" for="increaseamount w-100"><b>Elave Edilecek Miqdar: </b></label>
+          <input type="text" placeholder="Odenecek Miqdar" class="form-control" id="increaseamount" />
+        </div>
+      </div>
+      <div class="d-flex mt-2 justify-content-center">
+        <button class="btn-primary increase-user-credit btn col-3">
+          Borcu artir
+        </button>
+        <button class="btn-secondary icancel-user-btn btn col-3">
+          Legv et
+        </button>
+      </div>
+    </div>
+    <div class="_P_layout">
+      <div class="d-flex justify-content-center mt-4">
+        <h5><span class="nameinfo2"></span> ucun odeme edirsiniz.</h5>
+      </div>
+      <div class="d-flex justify-content-center align-items-center">
+        <input type="text" id="usercredit-pay" disabled value="Borc: 300 AZN" class="form-control col-10" />
+      </div>
+      <div class="d-flex justify-content-center w-100">
+        <div class="col-10 m-0 p-0">
+          <label class="pl-1 pt-2" for="userpaymentamount w-100"><b>Odenecek Miqdar: </b></label>
+          <input type="text" placeholder="Odenecek Miqdar" class="form-control" id="userpaymentamount" />
+        </div>
+      </div>
+      <div class="d-flex mt-2 justify-content-center">
+        <button class="btn-primary pay-user-credit btn col-3">
+          Odenis et
+        </button>
+        <button class="btn-secondary cincrease-user-btn btn col-3">
+          Legv et
+        </button>
+      </div>
+    </div>
+    <div class="layout">
+      <h5 class="text-center mt-3">
+        Istifadecini silmek ucun sifreni daxil edin:
+      </h5>
+      <div class="col-12 p-0 d-flex justify-content-center">
+        <input type="password" placeholder="Sifre:" class="col-md-10 form-control pasc" />
+      </div>
+      <div class="d-flex mt-2 justify-content-center">
+        <button class="btn-danger delete-user-btn btn col-3">Sil</button>
+        <button class="btn-secondary dcancel-user-btn btn col-3">
+          Legv et
+        </button>
+      </div>
+    </div>
+    <div class="layout-2">
+      <h5 class="text-center mt-3">
+        Sifreni Daxil Edin
+      </h5>
+      <div class="col-12 p-0 d-flex justify-content-center">
+        <input type="password" placeholder="Sifre:" class="col-md-10 form-control wisp" />
+      </div>
+      <div class="d-flex mt-2 justify-content-center">
+        <button class="btn-danger whatispass btn col-3">Daxil Et</button>
+      </div>
+    </div>
+  </div>
+  <div class="modalz">
+    <div class="pc_layout">
+      <h6 class="text-center mvqtb" style="color:#ed2939">Yanlis Sifre</h4>
+
+    <div class="d-flex justify-content-center align-items-center">   
+      <div class="col-10"> 
+        <input type="text" placeholder="Kohne sifre" class="m-1 oldpassr form-control">
+      <input type="text" placeholder="Yeni sifre" class=" m-1 newpassr form-control">
+      </div>
+    </div>
+    <div class="d-flex justify-content-center align-items-center">
+      <button class="btn btn-primary cprequest">Sifreni Deyisdir</button>
+      <button class="btn btn-secondary cpcancel">Legv Et!</button>
+    </div>
+
+    </div>
+  </div>
+  <div class="modal-f-w">
+    <div class="logs-container">
+      <div class="d-flex justify-content-center  align-items-center clsimg">
+        <img src="../views/icons/xmark-solid.svg" alt="">
+      </div>
+      <div class="d-flex mt-3 justify-content-center align-items-center">
+        <select class="form-control col-6" id="whatnote" aria-label="Default select example">
+          <option value="all" selected>Butun Qeydler</option>
+          <option value="payment">Odeme Qeydleri</option>
+        </select>
+      </div>
+      <div>
+        <h5 class="cmf text-center">
+          Jamil Aghazada Qeydleri:
+          </h6>
+      </div>
+      <p class="p-log debtcrdt">[+] Umumi Alinan borc <span class="dcs"></span></p>
+        <p class="p-log payed">[-] Umumi Odenen borc <span class="pys"></span></p>
+        <hr>
+      <section class="cmf-sect">
+        
+      </section>
+    </div>
+  </div>
+  <section class="ftco-section">
+    <div>
+      <div class="row">
+        <div class="col-md-12 d-flex justify-content-between">
+          <h4>Borc: <span class="creditamount"></span> AZN</h4>
+          <div class="d-flex"><button class="btn mr-2 btn-primary gdltdusers">Silinenler</button>
+            <button class="btn btn-success gllusers">Butun Istifadeciler</button>
+            <button class="pdmc-btn btn btn-danger">PDF Endir!</button>
+  </div>
+        </div>
+        <!-- <div class="col-md-12">
+            <h4>Cixaris: <button class="btn btn-warning">Cixaris</button></h4>
+          </div> -->
+        <div class="d-flex mb-2  col-12 p-0 m-0 mt-2 justify-content-center">
+          <input type="text" placeholder="Axtar" class="col-10 form-control search" />
+          <select name="selectwhat" id="selectwhat" class="form-select form-control">
+            <option value="surname">Soyad</option>
+            <option value="credit">Borc</option>
+            <option value="phone">Telefon</option>
+            <option value="lastPaymentAmount">SonOdenisMiqdari</option>
+            <option selected value="name">Ad</option>
+          </select>
+        </div>
+        <div class="col-md-12">
+          <div class="table-wrap">
+            <table class="table">
+              <thead class="thead-primary">
+                <tr>
+                  <th>ID</th>
+                  <th>Ad</th>
+                  <!--<th>Soyad</th>-->
+                  <!--<th>Telefon</th>-->
+                  <th>Borc</th>
+                  <!--<th>Əlavə Olunma Tarixi</th>-->
+                  <th>Məhsullar</th>
+                  <th>Son Odenis Miqdari</th>
+                  <th class="ispayth">Ode</th>
+                  <!-- <th>Sil</th> -->
+                  <th>Diger</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="../scripts/actions/btnActions.script.js"></script>
+  <!-- <script src="../scripts/operations/addUser.script.js"></script> -->
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Table 03</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="row">
+      <div class="d-flex justify-content-center col-12">
+        <div
+          class="ersc alert alert-success col-10 text-center"
+          style="display: none"
+        ></div>
+      </div>
+      <div class="d-flex justify-content-center col-12 align-items-center">
+        <div class="col-10">
+          <input
+            type="text"
+            placeholder="Ad"
+            id="name"
+            class="col-10 form-control"
+          />
+          <input
+            type="text"
+            placeholder="Soyad"
+            id="surname"
+            class="col-10 form-control"
+          />
+          <input
+            type="text"
+            placeholder="Qalıq"
+            id="credit"
+            class="col-10 form-control"
+          />
+          <input
+            type="text"
+            placeholder="Telefon"
+            id="phone"
+            class="col-10 form-control"
+          />
+          <input
+            type="text"
+            placeholder="Son Ödəniş Miqdarı"
+            id="lastpayment"
+            class="col-10 form-control"
+          />
+          <input
+            type="date"
+            placeholder="Son Ödəniş Tarixi"
+            id="lastpaymentdate"
+            class="col-10 form-control"
+          />
+          <input
+            type="date"
+            placeholder="Başlanğıc Tarixi"
+            id="time"
+            class="col-10 form-control"
+          />
+          <input
+            type="text"
+            placeholder="Xüsusi Qeyd"
+            id="specialInfo"
+            class="col-10 form-control"
+          />
+          <div class="p-0 m-0" id="goods-container">
+            <div class="d-flex mt-3 col-6 p-0">
+              <input
+                type="text"
+                placeholder="Mehsul"
+                id="specialInfo"
+                class="col-6 add-goods-name form-control"
+              />
+              <input 
+                type="number"
+                placeholder="Sayi"
+                id="specialInfo"
+                class="col-3 add-goods-count form-control"
+              />
+              <div class="p-0 m-0 d-flex">
+                <button id="btn-add" class="btn m-0 btn-danger">+</button>
+              </div>
+            </div>
+            <div id="goods-lists"></div>
+          </div>
+          <button class="btn-success btn add-credit m-2">Əlavə et</button>
+        </div>
+        <!-- ad soyad telefon borc -->
+      </div>
+    </div>
+    <script src="../scripts/operations/addUser.script.js"></script>
+  </body>
+</html>

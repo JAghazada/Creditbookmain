@@ -1,0 +1,222 @@
+.row {
+  padding: 0 !important;
+  margin: 0;
+}
+.t-can {
+  width: 14px;
+  cursor: pointer;
+
+  margin-left: 15px;
+}
+.btn-delete {
+  background-color: #ecebeb;
+}
+#goods-lists > li {
+  font-size: 19px;
+}
+#selectwhat {
+  width: 15%;
+}
+.selection {
+  position: relative;
+  width: 120px;
+  margin: 0 auto;
+}
+.other-buttons {
+  position: absolute;
+  z-index: 10;
+  width: 120px;
+}
+.other-buttons > button {
+  margin-top: 1px;
+}
+.down {
+  height: 12px;
+  padding-left: 10px;
+}
+.scope-def {
+  font-weight: bold;
+  background-color: #e8ebf8 !important;
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 10;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.515);
+}
+.layout,.layout-2 {
+  z-index: 11;
+  position: fixed;
+  display: none;
+  top: 30%;
+  left: 30%;
+  background-color: #fff;
+  width: 500px;
+  height: 170px;
+  border-radius: 16px;
+}
+._P_layout,._I_layout,._E_layout{
+  z-index: 11;
+  position: fixed;
+  display: none;
+  top: 30%;
+  left: 30%;
+  background-color: #fff;
+  width: 500px;
+  height: 300px;
+  border-radius: 16px;
+}
+._E_layout{
+height: auto;
+padding: 30px;
+display: none;
+
+
+}
+ .nameinfo {
+color: rgb(12, 12, 78);}
+.nameinfo2{
+color: #ed2939;}
+.no-credit{
+background-color: #cfcfcf !important;
+font-weight: bold;}
+th[scope=row]{
+  cursor: pointer;
+}
+
+._Info_layout{
+  z-index: 11;
+  position: fixed;
+  display: none;
+  left: 30%;
+  background-color: #fff;
+  width: 500px;
+  border-radius: 16px;
+  height: 400px;
+  top: 5%;
+  overflow-y: auto;
+  background-color: #eee;
+  padding: 10px 15px;
+}
+
+
+.key {
+  color: #0400ff
+}
+
+.value {
+  color: #2b7c05;
+}
+
+.stuffs {
+  color: #ed2939;
+  font-weight: bold;
+}
+
+.stuff-name {
+  color: #000;
+  font-weight: bold
+}
+
+.stuff-price {
+  color: darkblue;
+}
+
+.il-cnt {
+  position: relative;
+}
+
+.close {
+  float: right;
+  width: 14px;
+  cursor: pointer;
+}
+
+/* width */
+::-webkit-scrollbar {
+width: 6px;
+}
+
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #888;
+border-radius: 16px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #555;
+}
+.modal-f-w,.modalz {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+  z-index: 10;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.515);
+}
+.mvqtb{
+  display: none;
+}
+.pc_layout {
+  z-index: 11;
+  position: fixed;
+  display: none;
+  left: 30%;
+  background-color: #fff;
+  width: 500px;
+  border-radius: 16px;
+  top: 15%;
+  overflow-y: auto;
+  padding: 20px 15px;
+}
+.logs-container{
+  border-radius: 16px;
+  top: 10%;
+  width: 800px;
+  padding: 10px 20px;
+  position: absolute;
+  background-color: #fff;
+  display: block;
+}
+.cmf{
+  color: #000;
+
+}
+.p-log{
+  text-align: center;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.671);
+}
+.payment-log{
+  color: rgb(8, 121, 13);
+
+}
+.increase-log{
+  color: rgb(156, 5, 5);
+
+}
+.edit-log{
+  color: rgb(149, 151, 5);
+}
+.delete-log{
+  color: #ed2939;
+}
+
+.clsimg{
+  width: 20px;
+  float: right;
+  cursor: pointer;
+}
+.debtcrdt{
+  color: #ed2939;
+}
+.payed{
+  color: green;
+}
